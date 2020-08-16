@@ -1,0 +1,10 @@
+{
+  "question": "Please select the capital of England",
+  "candidates": [
+    "Paris",
+    "London",
+    "Berlin",
+    "Tokyo"
+  ],
+  "answer": "London"
+}
