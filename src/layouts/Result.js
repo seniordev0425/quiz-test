@@ -15,7 +15,7 @@ function Result(props) {
         <h3 className={candidate === answer && 'question-text'}>
           {candidate !== answer
             ?
-            'Oops! Please try again'
+            'Oops! Please try again.'
             :
             'Congratulation!'
           }
