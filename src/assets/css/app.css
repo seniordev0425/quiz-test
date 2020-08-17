@@ -1,3 +1,10 @@
 .question-text {
-    color: #0091ff;
+  color: #0091ff;
+}
+.correct-answer-text {
+  color: #2bde30;
+}
+.wrong-answer-text {
+  color: red;
+  text-decoration: line-through;
 }

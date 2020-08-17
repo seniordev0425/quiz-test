@@ -1,10 +1,42 @@
-{
-  "question": "Please select the capital of England",
-  "candidates": [
-    "Paris",
-    "London",
-    "Berlin",
-    "Tokyo"
-  ],
-  "answer": "London"
-}
+[
+  {
+    "question": "What is the capital of England?",
+    "list": [
+      "Paris",
+      "London",
+      "Berlin",
+      "Tokyo"
+    ],
+    "correct_answer": "London"
+  },
+  {
+    "question": "What is the capital of France?",
+    "list": [
+      "Paris",
+      "London",
+      "Berlin",
+      "Tokyo"
+    ],
+    "correct_answer": "Paris"
+  },
+  {
+    "question": "What is the capital of Germany?",
+    "list": [
+      "Paris",
+      "London",
+      "Berlin",
+      "Tokyo"
+    ],
+    "correct_answer": "Berlin"
+  },
+  {
+    "question": "What is the capital of Japan?",
+    "list": [
+      "Paris",
+      "London",
+      "Berlin",
+      "Tokyo"
+    ],
+    "correct_answer": "Tokyo"
+  }
+]
