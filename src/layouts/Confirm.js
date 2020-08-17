@@ -7,15 +7,20 @@ const cardStyle = {
   textAlign: 'center'
 }
 
+const cardHeadStyle = {
+  fontSize: '1.3rem',
+  color: '#1890ff'
+}
+
 function Confirm(props) {
-  const {switchSection} = props
+  const { switchSection } = props
 
   return (
     <div className="d-flex justify-content-center align-items-center flex-column mt-5">
       <Card
         title='Confirm'
         style={cardStyle}
-        headStyle={{ fontSize: '1.3rem', color: '#1890ff' }}
+        headStyle={cardHeadStyle}
       >
         <h6 className="mt-5">Please confirm all answers again. Are you ready?</h6>
         <div className="mt-5 d-flex justify-content-around">

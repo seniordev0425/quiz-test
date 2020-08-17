@@ -15,7 +15,7 @@ function Result(props) {
 
   const [score, setScore] = useState(0)
 
-  useEffect(() => {
+  useEffect(() => { // Calculate score
     let tmpScore = 0
     problems.forEach((problem) => {
       if (problem.answer === problem.correct_answer) tmpScore ++
